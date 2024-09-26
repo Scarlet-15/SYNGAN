@@ -1,6 +1,6 @@
 # SYN GAN: Tamil Text-to-Image Synthesis using Generative Adversarial Networks
 
-This repository implements **TAM GAN**, a novel framework designed for generating high-quality images from Tamil text descriptions using Generative Adversarial Networks (GANs). The architecture integrates language models like **TAM-BERT** and **MuRIL BERT** to process Tamil text, and GAN-based models for image generation.
+This repository implements **SYN GAN**, a novel framework designed for generating high-quality images from Tamil text descriptions using Generative Adversarial Networks (GANs). The architecture integrates language models like **TAM-BERT** and **MuRIL BERT** to process Tamil text, and GAN-based models for image generation.
 
 ## Table of Contents
 - [Introduction](#introduction)
