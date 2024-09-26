@@ -63,3 +63,15 @@ The training script allows for specifying parameters such as the number of epoch
 - `embedding_dim`: Dimension of the Tamil text embeddings (default: 768).
 - `image_resolution`: The model is designed for generating **512x512** resolution images.
 
+## Results
+
+### Metrics Used:
+1. **Fréchet Inception Distance (FID)**: This metric is used to evaluate the quality of the generated images by comparing the statistics of generated images to real images. A lower FID score indicates better image quality and diversity.
+   
+2. **Inception Score**: The Inception Score evaluates the quality and diversity of the generated images by passing them through a pre-trained Inception model. It assesses how well the generated images belong to clear object categories and their diversity within those categories. A higher Inception Score indicates better performance.
+
+3. **Loss Curves**: During training, the loss curves for both the **generator** and **discriminator** are monitored to ensure stable training. A gradual reduction in generator loss and stability in discriminator loss indicate that the model is learning effectively.
+
+The model performed competitively on the Oxford-102 flower dataset with a good balance of image quality and diversity, as indicated by the FID and Inception scores. Additionally, the loss curves demonstrated stable GAN training with minimal issues such as mode collapse.
+
+
