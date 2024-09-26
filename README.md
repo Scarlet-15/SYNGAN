@@ -97,7 +97,7 @@ The **Fréchet Inception Distance (FID)** was used to assess the realism and div
 
 ## Contributing
 
-We welcome contributions to improve **TAM GAN**. Please open an issue or submit a pull request for any enhancements or bug fixes.
+We welcome contributions to improve **SYN GAN**. Please open an issue or submit a pull request for any enhancements or bug fixes.
 
 ## License
 
