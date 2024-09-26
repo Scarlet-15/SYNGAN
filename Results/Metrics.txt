@@ -1,0 +1,17 @@
+Muril without Proofread
+Inception Score: 37575489640097246705876992.0000 ± inf, FID: 49.1608
+
+Muril with Proofread
+Inception Score: 31282540.0000 ± 29133576.0000, FID: 11.5919
+
+FastText with Proofread
+Inception Score: 7186333.5000 ± 12192042.0000, FID: 12.4062
+
+FastText without Proofread
+Inception Score: 1542239.7500 ± 444679.5625, FID: 7.3187
+
+Glove with Proofread
+Inception Score: 2994378905881673728.0000 ± 5446593026153512960.0000, FID: 29.2469
+
+Glove without Proofread
+Inception Score: 29722342.0000 ± 21500020.0000, FID: 7.5565
