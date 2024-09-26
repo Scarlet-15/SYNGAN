@@ -39,7 +39,7 @@ The GAN is trained using a modified **MINIMAX loss function**. Feature matching 
 
 ## Dataset
 
-- **Oxford-102 Flower Dataset**: [[Kaggle - Oxford 102 Flower Dataset](https://www.kaggle.com/datasets/omeret/oxford-102-flowers](https://www.kaggle.com/c/oxford-102-flower-pytorch/data))]
+- **Oxford-102 Flower Dataset**
 
 ## Installation
 
