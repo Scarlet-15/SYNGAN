@@ -49,7 +49,7 @@ The trained model converts **Tamil text** into image embeddings via **MuRIL BERT
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/username/TAM-GAN.git
+    git clone https://github.com/username/SYN-GAN.git
     ```
 2. Install the required dependencies:
     ```bash
