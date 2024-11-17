@@ -87,7 +87,6 @@ Licensed under the [MIT License](LICENSE).
 
 ## **📫 Contact**
 
-## **📫 Contact**
 
 - <img src="https://img.icons8.com/ios-filled/50/000000/gmail.png" alt="Email Icon" width="20"> [Harinee J](mailto:harinee.j2021@vitstudent.ac.in)  
 - <img src="https://img.icons8.com/ios-filled/50/000000/gmail.png" alt="Email Icon" width="20"> [Mhanjhusriee B](mailto:mhanjhusriee.b2021@vitstudent.ac.in)  
