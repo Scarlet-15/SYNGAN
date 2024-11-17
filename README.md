@@ -6,13 +6,13 @@
 
 **SYNGAN** bridges the gap between Tamil text descriptions and image generation using advanced Generative Adversarial Networks (GANs). Leveraging state-of-the-art embeddings like MURIL, FastText, and GloVe, SYNGAN is tailored to synthesize high-quality images from Tamil text inputs.
 
-[🌐 **Live Demo**](your-streamlit-app-link) | [📝 **Paper**](paper-link-if-available)  
+[🌐 **Live Demo**](your-streamlit-app-link)
 
 ---
 
 ## **✨ Features**
 - Multi-embedding support: **MURIL**, **FastText**, **GloVe**  
-- High-resolution image generation (512x512)  
+- Size of Image Generated (64x64x3)  
 - Intuitive web interface with **Streamlit**  
 - Supports both proofread and unproofread datasets  
 
@@ -24,49 +24,40 @@
 2. **Generator**: Creates images from text embeddings and noise vectors.  
 3. **Discriminator**: Validates generated images against real samples.  
 
-![Architecture Diagram](path-to-architecture-diagram)
+![Architecture Diagram](Assets\Project Flow.png)
 
 ---
 
 ## **📊 Key Metrics**
-| Model            | FID Score | Inception Score |  
-|-------------------|-----------|-----------------|  
-| MURIL Proofread   | X.XX      | X.XX            |  
-| FastText Proofread| X.XX      | X.XX            |  
-| GloVe Proofread   | X.XX      | X.XX            |  
 
-For detailed analysis and loss curves, refer to our [report](path-to-metrics-file).  
+| Model                | FID Score | Inception Score (Mean ± Std)           
+|----------------------|-----------|-------------------------------|  
+| MURIL Proofread      | 11.5919   | 31282540.0000 ± 29133.0       |  
+| FastText Proofread   | 12.4062   | 7186333.5000 ± 12192.0        |  
+| GloVe Proofread      | 29.2469   | 299437890.0000 ± 544659.00    |  
+| MURIL UnProofread    | 49.1608   | 3757548964009724.0000 ± inf   |  
+| FastText UnProofread | 7.3187    | 1542239.7500 ± 444679.5625    |  
+| GloVe UnProofread    | 7.5565    | 29722342.0000 ± 21500020.000  | 
 
 ---
 
 ## **🚀 Quick Start**
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/YourUsername/SYNGAN.git
+   git clone https://github.com/Scarlet-15/SYNGAN.git
    cd SYNGAN
    ```
-2. **Set up environment**:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
-3. **Run the demo**:
-   ```bash
-   streamlit run app/streamlit_app.py
-   ```
-
 ---
 
 ## **📁 Repository Structure**
 ```
 SYNGAN/
-├── configs/           # Configuration files
-├── data/              # Dataset & embeddings
-├── models/            # Generator & Discriminator
-├── app/               # Streamlit application
-├── requirements.txt   # Dependencies
-└── README.md          # Project overview
+├── GAN_Trained_Modes/           # Zip files of all embeddings generated
+├── Results/                     # Loss Graphs and Results
+├── Assets/                      # Architecture Diagrams
+├── app.py                       # Streamlit application
+├── Final_Results.ipynb          # Model code for steamlit application
+└── README.md                    # Project overview
 ```
 
 ---
@@ -77,15 +68,6 @@ Features include real-time Tamil text-to-image synthesis and model comparison.
 
 ---
 
-## **🤝 Contributing**
-We welcome contributions!  
-- Fork this repository  
-- Make your changes  
-- Open a pull request  
-
-See our [Contributing Guidelines](CONTRIBUTING.md) for details.
-
----
 
 ## **📜 License**
 Licensed under the [MIT License](LICENSE).
@@ -93,5 +75,8 @@ Licensed under the [MIT License](LICENSE).
 ---
 
 ## **📫 Contact**
-- **Your Name**: [Your Email]  
-- **GitHub**: [SYNGAN Repository](https://github.com/YourUsername/SYNGAN)
+
+- ![Email Icon 1](https://img.icons8.com/ios-filled/50/email.png) [harinee.j2021@vitstudent.ac.in](mailto:harinee.j2021@vitstudent.ac.in)  
+- ![Email Icon 2](https://img.icons8.com/ios-filled/50/email.png) [mhanjhusriee.b2021@vitstudent.ac.in](mhanjhusriee.b2021@vitstudent.ac.in)  
+- ![Email Icon 3](https://img.icons8.com/ios-filled/50/email.png) [srinidhi.k2021@vitstudent.ac.in](srinidhi.k2021@vitstudent.ac.in)  
+
