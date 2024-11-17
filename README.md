@@ -1,8 +1,6 @@
 
 # **SYNGAN: Tamil Text-to-Image Synthesis using GANs** 🎨  
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)  
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)  
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-orange.svg)](https://tensorflow.org/)  
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/) [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/) [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-orange.svg)](https://tensorflow.org/)
 
 **SYNGAN** bridges the gap between Tamil text descriptions and image generation using advanced Generative Adversarial Networks (GANs). Leveraging state-of-the-art embeddings like MURIL, FastText, and GloVe, SYNGAN is tailored to synthesize high-quality images from Tamil text inputs.
 
@@ -24,9 +22,22 @@
 2. **Generator**: Creates images from text embeddings and noise vectors.  
 3. **Discriminator**: Validates generated images against real samples.  
 
-![Architecture Diagram](Assets\Project Flow.png)
+![Architecture Diagram](https://github.com/Scarlet-15/SYNGAN/blob/main/Assets/Project%20Flow.png)
+
 
 ---
+
+## **🧬 Generator and Discriminator Architecture**
+<p align="center">
+  <img src="https://img.icons8.com/color/48/000000/artificial-intelligence.png" alt="AI Icon" width="40">
+</p>
+
+### **Generator Architecture**
+![Generator Architecture](https://github.com/Scarlet-15/SYNGAN/blob/main/Assets/Generator.png)
+
+### **Discriminator Architecture**
+![Discriminator Architecture](https://github.com/Scarlet-15/SYNGAN/blob/main/Assets/Discriminator.png)
+
 
 ## **📊 Key Metrics**
 
@@ -76,7 +87,10 @@ Licensed under the [MIT License](LICENSE).
 
 ## **📫 Contact**
 
-- ![Email Icon 1](https://img.icons8.com/ios-filled/50/email.png) [harinee.j2021@vitstudent.ac.in](mailto:harinee.j2021@vitstudent.ac.in)  
-- ![Email Icon 2](https://img.icons8.com/ios-filled/50/email.png) [mhanjhusriee.b2021@vitstudent.ac.in](mhanjhusriee.b2021@vitstudent.ac.in)  
-- ![Email Icon 3](https://img.icons8.com/ios-filled/50/email.png) [srinidhi.k2021@vitstudent.ac.in](srinidhi.k2021@vitstudent.ac.in)  
+## **📫 Contact**
+
+- <img src="https://img.icons8.com/ios-filled/50/email.png" alt="Email Icon" width="20"> [harinee.j2021@vitstudent.ac.in](mailto:harinee.j2021@vitstudent.ac.in)  
+- <img src="https://img.icons8.com/ios-filled/50/email.png" alt="Email Icon" width="20"> [mhanjhusriee.b2021@vitstudent.ac.in](mailto:mhanjhusriee.b2021@vitstudent.ac.in)  
+- <img src="https://img.icons8.com/ios-filled/50/email.png" alt="Email Icon" width="20"> [srinidhi.k2021@vitstudent.ac.in](mailto:srinidhi.k2021@vitstudent.ac.in)
+
 
