@@ -89,8 +89,8 @@ Licensed under the [MIT License](LICENSE).
 
 ## **📫 Contact**
 
-- <img src="https://img.icons8.com/ios-filled/50/email.png" alt="Email Icon" width="20"> [harinee.j2021@vitstudent.ac.in](mailto:harinee.j2021@vitstudent.ac.in)  
-- <img src="https://img.icons8.com/ios-filled/50/email.png" alt="Email Icon" width="20"> [mhanjhusriee.b2021@vitstudent.ac.in](mailto:mhanjhusriee.b2021@vitstudent.ac.in)  
-- <img src="https://img.icons8.com/ios-filled/50/email.png" alt="Email Icon" width="20"> [srinidhi.k2021@vitstudent.ac.in](mailto:srinidhi.k2021@vitstudent.ac.in)
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Font_Awesome_5_solid_envelope.svg/20px-Font_Awesome_5_solid_envelope.svg.png" alt="Email Icon" width="20"> [Harinee J](mailto:harinee.j2021@vitstudent.ac.in)  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Font_Awesome_5_solid_envelope.svg/20px-Font_Awesome_5_solid_envelope.svg.png" alt="Email Icon" width="20"> [Mhanjhusriee B](mailto:mhanjhusriee.b2021@vitstudent.ac.in)  
+- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Font_Awesome_5_solid_envelope.svg/20px-Font_Awesome_5_solid_envelope.svg.png" alt="Email Icon" width="20"> [Srinidhi K](mailto:srinidhi.k2021@vitstudent.ac.in)
 
 
