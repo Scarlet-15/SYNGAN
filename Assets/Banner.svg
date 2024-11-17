@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <!-- Gradient Definitions -->
+  <defs>
+    <!-- Background gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8f9fa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e9ecef;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Accent gradient -->
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7048e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4263eb;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Neural network gradient -->
+    <linearGradient id="neuralGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#339af0;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#4263eb;stop-opacity:0.1" />
+    </linearGradient>
+
+    <!-- Flow pattern -->
+    <pattern id="flowPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0,10 Q5,5 10,10 T20,10" fill="none" stroke="#e9ecef" stroke-width="1"/>
+    </pattern>
+
+    <!-- Arrow marker -->
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#495057"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+  <rect width="1200" height="400" fill="url(#flowPattern)"/>
+
+  <!-- Decorative hexagonal grid for AI/ML representation -->
+  <g transform="translate(50,50)" fill="none" stroke="#dee2e6" stroke-width="0.5">
+    <path d="M0,0 L30,0 L45,26 L30,52 L0,52 L-15,26 Z" />
+    <path d="M45,26 L75,26 L90,52 L75,78 L45,78 L30,52 Z" />
+    <path d="M30,52 L60,52 L75,78 L60,104 L30,104 L15,78 Z" />
+  </g>
+
+  <!-- Main Content Container -->
+  <g transform="translate(100,80)">
+    <!-- Project Title -->
+    <text font-family="Arial" font-weight="bold" fill="url(#accentGradient)">
+      <tspan x="0" y="0" font-size="84">SYNGAN</tspan>
+      <tspan x="0" y="50" font-size="32">Tamil Text-to-Image Synthesis</tspan>
+    </text>
+
+    <!-- Architecture Visualization -->
+    <g transform="translate(0,100)">
+      <!-- Text Input -->
+      <rect x="0" y="0" width="160" height="60" rx="8" fill="#fff" stroke="#339af0" stroke-width="2"/>
+      <text x="80" y="35" font-family="Arial" font-size="16" text-anchor="middle" fill="#495057">Tamil Text Input</text>
+      
+      <!-- Embedding Models -->
+      <g transform="translate(200,0)">
+        <rect x="0" y="0" width="120" height="30" rx="4" fill="#7048e8" fill-opacity="0.9"/>
+        <text x="60" y="20" font-family="Arial" font-size="14" fill="white" text-anchor="middle">MURIL</text>
+        
+        <rect x="0" y="40" width="120" height="30" rx="4" fill="#7048e8" fill-opacity="0.8"/>
+        <text x="60" y="60" font-family="Arial" font-size="14" fill="white" text-anchor="middle">FastText</text>
+        
+        <rect x="0" y="80" width="120" height="30" rx="4" fill="#7048e8" fill-opacity="0.7"/>
+        <text x="60" y="100" font-family="Arial" font-size="14" fill="white" text-anchor="middle">GloVe</text>
+      </g>
+
+      <!-- GAN Architecture -->
+      <g transform="translate(400,20)">
+        <!-- Generator -->
+        <rect x="0" y="0" width="140" height="80" rx="8" fill="#339af0" fill-opacity="0.9"/>
+        <text x="70" y="45" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Generator</text>
+        
+        <!-- Discriminator -->
+        <rect x="200" y="0" width="140" height="80" rx="8" fill="#ff6b6b" fill-opacity="0.9"/>
+        <text x="270" y="45" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Discriminator</text>
+        
+        <!-- Connecting arrows -->
+        <path d="M145,40 L195,40" stroke="#495057" stroke-width="2" marker-end="url(#arrowhead)"/>
+      </g>
+
+      <!-- Output Image -->
+      <g transform="translate(800,0)">
+        <!-- Image frame -->
+        <rect x="0" y="0" width="120" height="120" rx="8" fill="white" stroke="#339af0" stroke-width="2"/>
+        <!-- Stylized flower -->
+        <path d="M60,30 C80,10 100,10 120,30 C100,50 80,50 60,30" fill="#ff922b" fill-opacity="0.6"/>
+        <path d="M60,60 C80,40 100,40 120,60 C100,80 80,80 60,60" fill="#f06595" fill-opacity="0.6"/>
+        <path d="M30,60 C50,40 70,40 90,60 C70,80 50,80 30,60" fill="#ff922b" fill-opacity="0.6"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Tamil Script Decorative Elements -->
+  <g transform="translate(1000,50)" fill="#7048e8" fill-opacity="0.1">
+    <text x="0" y="0" font-family="Arial" font-size="72">த</text>
+    <text x="60" y="60" font-family="Arial" font-size="72">மி</text>
+    <text x="30" y="120" font-family="Arial" font-size="72">ழ்</text>
+  </g>
+
+  <!-- Bottom Info Bar -->
+  <g transform="translate(100,350)">
+    <text font-family="Arial" font-size="14" fill="#868e96">
+      <tspan x="0" y="0">Oxford 102 Flowers Dataset • DCGAN Architecture • Multi-embedding Approach</tspan>
+    </text>
+  </g>
+</svg>
