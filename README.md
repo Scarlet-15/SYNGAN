@@ -8,7 +8,67 @@ SYNGAN is a pioneering framework that bridges the gap between Tamil text descrip
 
 [🌐 Live Demo](your-streamlit-app-link) | [📝 Paper](paper-link-if-available) | [🤗 Hugging Face Space](if-available)
 
-![Project Banner or Sample Generated Images](path-to-banner-image)
+![Project Banner or Sample Generated Images](<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300">
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#f8f9fa"/>
+  
+  <!-- Decorative network pattern -->
+  <g fill="none" stroke="#e9ecef" stroke-width="1">
+    <path d="M50,150 C200,50 400,250 600,150 S900,50 1150,150"/>
+    <path d="M50,100 C200,0 400,200 600,100 S900,0 1150,100"/>
+    <path d="M50,200 C200,100 400,300 600,200 S900,100 1150,200"/>
+  </g>
+
+  <!-- Main title text -->
+  <text x="100" y="150" font-family="Arial" font-size="72" font-weight="bold" fill="#212529">
+    SYNGAN
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="190" font-family="Arial" font-size="24" fill="#495057">
+    Tamil Text-to-Image Synthesis
+  </text>
+
+  <!-- Tamil script symbol -->
+  <text x="500" y="160" font-family="Arial" font-size="48" fill="#7048e8">
+    த
+  </text>
+
+  <!-- Right side elements -->
+  <!-- Flower representation -->
+  <g transform="translate(800, 150)">
+    <path d="M0,0 C20,-20 40,-20 60,0 C80,-20 100,-20 120,0 C120,20 100,40 80,40 C60,40 40,40 20,40 C0,40 -20,20 0,0" 
+          fill="#ff922b" fill-opacity="0.6"/>
+    <path d="M60,0 C80,-20 100,-20 120,0 C140,-20 160,-20 180,0 C180,20 160,40 140,40 C120,40 100,40 80,40 C60,40 40,20 60,0" 
+          fill="#f06595" fill-opacity="0.6"/>
+  </g>
+
+  <!-- GAN representation -->
+  <g transform="translate(950, 100)">
+    <!-- Generator -->
+    <rect x="0" y="0" width="80" height="40" rx="5" fill="#339af0" fill-opacity="0.8"/>
+    <text x="40" y="25" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Generator</text>
+    
+    <!-- Discriminator -->
+    <rect x="100" y="0" width="80" height="40" rx="5" fill="#ff6b6b" fill-opacity="0.8"/>
+    <text x="140" y="25" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Discriminator</text>
+    
+    <!-- Connecting arrows -->
+    <path d="M85,20 L95,20" stroke="#495057" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#495057"/>
+    </marker>
+  </defs>
+
+  <!-- Embedding model names -->
+  <g font-family="Arial" font-size="14" fill="#868e96">
+    <text x="700" y="250">MURIL • FastText • GloVe</text>
+  </g>
+</svg>)
 
 ## ✨ Key Features
 
