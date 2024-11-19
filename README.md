@@ -67,12 +67,6 @@ SYNGAN/
 
 ---
 
-## **🌟 Demo**
-Explore the live demo: [**Streamlit App**](your-streamlit-app-link)  
-Features include real-time Tamil text-to-image synthesis and model comparison.
-
----
-
 
 ## **📜 License**
 Licensed under the [MIT License](LICENSE).
