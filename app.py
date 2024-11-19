@@ -14,7 +14,7 @@ if 'generator' not in st.session_state:
     st.session_state.generator = None
 
 class TamilTextToImage:
-    def __init__(self, generator_path="Model_glove_raw_500/generator_epoch_final.h5"):
+    def __init__(self, generator_path="GAN_Trained_Models\Model_proofread_500\generator_epoch_final.h5"):
         """Initialize the Tamil text to image generator"""
         try:
             self.generator = tf.keras.models.load_model(generator_path)
