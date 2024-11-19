@@ -41,14 +41,8 @@
 
 ## **📊 Key Metrics**
 
-| Model                | FID Score | Inception Score (Mean ± Std)           
-|----------------------|-----------|-------------------------------|  
-| MURIL Proofread      | 11.5919   | 31282540.0000 ± 29133.0       |  
-| FastText Proofread   | 12.4062   | 7186333.5000 ± 12192.0        |  
-| GloVe Proofread      | 29.2469   | 299437890.0000 ± 544659.00    |  
-| MURIL UnProofread    | 49.1608   | 3757548964009724.0000 ± inf   |  
-| FastText UnProofread | 7.3187    | 1542239.7500 ± 444679.5625    |  
-| GloVe UnProofread    | 7.5565    | 29722342.0000 ± 21500020.000  | 
+![Inception Score](https://github.com/Scarlet-15/SYNGAN/blob/main/Assets/Inception_Score.png)
+![FID Score](https://github.com/Scarlet-15/SYNGAN/blob/main/Assets/FID_score.png)
 
 ---
 
