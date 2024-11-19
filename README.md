@@ -6,8 +6,6 @@
 
 ![Banner](https://github.com/Scarlet-15/SYNGAN/blob/main/Assets/Banner.svg)
 
-[🌐 **Live Demo**](your-streamlit-app-link)
-
 ---
 
 ## **✨ Features**
